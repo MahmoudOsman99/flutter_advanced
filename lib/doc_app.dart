@@ -25,17 +25,6 @@ class DocApp extends StatelessWidget {
           primaryColor: ColorsManager.mainBlue,
           scaffoldBackgroundColor: Colors.white,
         ),
-        // home: Scaffold(
-        //   body: Center(
-        //     child: Text(
-        //       'Home Screen',
-        //       style: TextStyle(
-        //         color: ColorsManager.mainBlue,
-        //         fontSize: 30,
-        //       ),
-        //     ),
-        //   ),
-        // ),
       ),
     );
   }

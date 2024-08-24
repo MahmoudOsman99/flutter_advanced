@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:test_advance/core/theming/styles.dart';
 
 class OsmanLogoAndName extends StatelessWidget {
   const OsmanLogoAndName({super.key});
@@ -11,11 +12,10 @@ class OsmanLogoAndName extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         SvgPicture.asset('assets/svgs/docLogo.svg'),
-        Padding(
-          padding: EdgeInsets.symmetric(horizontal: 10.r),
-        ),
-        const Text(
+        SizedBox(width: 20.w),
+        Text(
           'Osman',
+          style: TextStyles.font24Black700Weight,
         ),
       ],
     );
