@@ -14,7 +14,7 @@ class GetStartedButton extends StatelessWidget {
         context.pushNamed(Routes.loginScreen);
       },
       style: ButtonStyle(
-        backgroundColor: WidgetStatePropertyAll(ColorsManager.mainBlue),
+        backgroundColor: const WidgetStatePropertyAll(ColorsManager.mainBlue),
         tapTargetSize: MaterialTapTargetSize.shrinkWrap,
         minimumSize: const WidgetStatePropertyAll(
           Size(double.infinity, 55),
